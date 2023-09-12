@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+//Imports
+import React from "react";
+import "./App.css";
+import PortfolioContainer from "./components/PortfolioContainer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import { useState } from "react";
 
-function App() {
+// Function that renders components with useState
+const App = () => {
+  const [currentPage, setCurrentPage] = useState("About");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <PortfolioContainer
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
+      <Footer />
     </div>
   );
-}
+};
 
+// Export
 export default App;
