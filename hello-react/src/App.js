@@ -6,26 +6,40 @@ import './App.css';
 
 import Header from './components/Header';
 import Home from './components/Home';
-import About from './components/About';
+import About from './components/Footer1';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Footer from './components/Footer';
+import Footer from './components/About';
+
 
 // Function that renders components with useState
-const App = () => {
-  const [currentPage, setCurrentPage] = useState("About");
+function App () {
+  const [currentPage, setCurrentPage] = useState("home");
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'home':
+        return <Home />;
+      case 'about':
+        return <About />;
+      case 'portfolio':
+        return <Portfolio />;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <Resume />;
+      default:
+        return <Home />;
+    }
+  };
   return (
-    <div>
-      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <PortfolioContainer
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-      />
+    <div className="App">
+      <Header setCurrentPage={setCurrentPage} currentPage={currentPage} />
+      {renderPage()}
       <Footer />
     </div>
   );
-};
+}
 
-// Export
 export default App;
