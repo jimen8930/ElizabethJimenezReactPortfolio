@@ -1,10 +1,16 @@
 //Imports
-import React from "react";
-import "./App.css";
-import PortfolioContainer from "./components/PortfolioContainer";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import { useState } from "react";
+import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
+import './App.css';
+
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 // Function that renders components with useState
 const App = () => {
