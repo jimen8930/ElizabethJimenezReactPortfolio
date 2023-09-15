@@ -11,7 +11,7 @@ const Footer = () => {
         <p>&copy; {new Date().getFullYear()} Elizabeth Jimenez</p>
         <div className="footer-icons-container">
           <a
-            href="https://github.com/Jalzu1007"
+            href="https://github.com/jimen8930"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-icon"
