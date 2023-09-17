@@ -20,29 +20,29 @@ const projects = [
         title: 'The Recipe Bar',
         description: 'Cocktail recipe and entertainment generator.',
         // imageSrc: 'the-recipe-bar.jpg',
-        // deployedLink: 'https://jalzu1007.github.io/the_recipe_bar/',
-        // githubLink: 'https://github.com/Jalzu1007/the_recipe_bar.git'
+        // deployedLink: '',
+        // githubLink: ''
       },
       {
         // title: 'BookMark',
         // description: 'Full-Stack book review application.',
         // imageSrc: 'book-mark.jpg',
-        // deployedLink: 'https://jalzu1007.github.io/the_recipe_bar/',
-        // githubLink: 'https://github.com/Jalzu1007/the_recipe_bar.git'
+        // deployedLink: '',
+        // githubLink: ''
       },
       {
         title: 'Work Day Scheduler',
         description: 'Work Day Scheduler built using JavaScript, jQuery and DayJS.',
         // imageSrc: 'work-day-scheduler.jpg',
-    //     deployedLink: 'https://jalzu1007.github.io/work-day-scheduler/',
-    //     githubLink: 'https://github.com/Jalzu1007/work-day-scheduler.git'
+    //     deployedLink: '',
+    //     githubLink: ''
       },
       {
         title: 'Password Generator',
         description: 'This is a password generator built on JavaScript.',
         // imageSrc: 'password-generator.jpg',
-        // deployedLink: 'https://jalzu1007.github.io/js-password-generator/',
-        // githubLink: 'https://github.com/Jalzu1007/js-password-generator.git'
+        // deployedLink: '',
+        // githubLink: ''
       },
     ];
     const Portfolio = () => {
