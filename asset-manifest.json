@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ElizabethJimenezReactPortfolio/static/css/main.bd1ce528.css",
+    "main.js": "/ElizabethJimenezReactPortfolio/static/js/main.93b6beca.js",
+    "index.html": "/ElizabethJimenezReactPortfolio/index.html",
+    "main.bd1ce528.css.map": "/ElizabethJimenezReactPortfolio/static/css/main.bd1ce528.css.map",
+    "main.93b6beca.js.map": "/ElizabethJimenezReactPortfolio/static/js/main.93b6beca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd1ce528.css",
+    "static/js/main.93b6beca.js"
+  ]
+}
