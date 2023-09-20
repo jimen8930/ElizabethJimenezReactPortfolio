@@ -13,7 +13,7 @@ This portfolio website, built using React, presents my completed projects and of
 
 To run My Portfolio locally, follow these steps:
 
-1. Clone the repository to your local machine: `git clone `
+1. Clone the repository to your local machine: `git clone https://github.com/jimen8930/ElizabethJimenezReactPortfolio.git`
 2. Navigate to the project directory using the terminal.
 3. Run `npm install` to install the required dependencies.
 4. Start the development server: `npm start` 
