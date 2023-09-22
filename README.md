@@ -33,7 +33,7 @@ This portfolio website provides information about my work, skills, and contact d
 
 - Footer: The footer includes text or icon links to my GitHub and LinkedIn profile
     
-To experience the portfolio, visit the deployed website: https://jimen8930.github.io/ElizabethJimenezReactPortfolio/Links to an external site.
+To experience the portfolio, visit the deployed website: https://jimen8930.github.io/ElizabethJimenezReactPortfolio to an external site.
 
 ## Credits
 
