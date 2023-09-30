@@ -1,19 +1,13 @@
 {
   "files": {
     "main.css": "/ElizabethJimenezReactPortfolio/static/css/main.00d19239.css",
-    "main.js": "/ElizabethJimenezReactPortfolio/static/js/main.52c33815.js",
-    "static/media/myhealthspace.png": "/ElizabethJimenezReactPortfolio/static/media/myhealthspace.e83e5f5e3dd33d4eb5fe.png",
-    "static/media/password-generator.jpg": "/ElizabethJimenezReactPortfolio/static/media/password-generator.94da04d4956198d5108a.jpg",
-    "static/media/recipe-bar.png": "/ElizabethJimenezReactPortfolio/static/media/recipe-bar.6701c95b202eeac6f40a.png",
-    "static/media/work-day-scheduler.jpg": "/ElizabethJimenezReactPortfolio/static/media/work-day-scheduler.58a8ac5799907e88f787.jpg",
-    "static/media/text-editor.png": "/ElizabethJimenezReactPortfolio/static/media/text-editor.726e6588c220a855b909.png",
-    "static/media/budgify-app.jpg": "/ElizabethJimenezReactPortfolio/static/media/budgify-app.d14ab77450ee779f8b89.jpg",
+    "main.js": "/ElizabethJimenezReactPortfolio/static/js/main.862f41bf.js",
     "index.html": "/ElizabethJimenezReactPortfolio/index.html",
     "main.00d19239.css.map": "/ElizabethJimenezReactPortfolio/static/css/main.00d19239.css.map",
-    "main.52c33815.js.map": "/ElizabethJimenezReactPortfolio/static/js/main.52c33815.js.map"
+    "main.862f41bf.js.map": "/ElizabethJimenezReactPortfolio/static/js/main.862f41bf.js.map"
   },
   "entrypoints": [
     "static/css/main.00d19239.css",
-    "static/js/main.52c33815.js"
+    "static/js/main.862f41bf.js"
   ]
 }
